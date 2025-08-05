@@ -13,7 +13,7 @@ title                    : "Welcome"
 title_separator          : "-"
 name                     : &name "naivecynics"
 description              : &description "personal description"
-url                      : https://naivecynics.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+url                      : https://naivecynics.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "naivecynics/naivecynics.github.io"
 
@@ -24,10 +24,10 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Langchu Huang"
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Caffeine-powered Music-inspired CS Undergrad"
   location         : "Guangdong, China"
   employer         : "SUSTech"
-  uri              : # URL
+  uri              : "https://naivecynics.github.io"
   email            : "12213009@mail.sustech.edu.cn" 
 
   # Academic websites
