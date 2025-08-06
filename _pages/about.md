@@ -11,7 +11,7 @@ I come from Foshan, Guangdong Province, where people are obsessed with the unadu
 
 I am currently studying Computer Science at the College of Engineering, **SUSTech**.
 
-I am deeply passionate about this discipline, especially the emerging field of deep learning. I enjoy the process of transforming abstract ideas into rigorous and elegant paradigms—programming has become my medium for exploring the unknown.
+I am deeply passionate about this discipline, especially the emerging field of deep learning. I enjoy the process of transforming abstract ideas into rigorous and elegant paradigms.
 
 My research interests lie at the intersection of **signal processing**, **language models**, and **music information retrieval**. I’m particularly fascinated by how machines can understand structured and unstructured human signals—be it **speech, music, or text**—and how we can model these forms of expression computationally.
 
