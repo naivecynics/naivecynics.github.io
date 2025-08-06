@@ -35,14 +35,15 @@
       "position": "Research Intern",
       "startDate": "2025.07.01",
       "endDate": "2025.08.31",
-      "summary": "ABCD: Air-Bone Cough Contrastive Detector for Dual-Path Edge Audio Health Monitoring",
-      "url": "https://github.com/naivecynics/ABCD-Poster/blob/main/poster.pdf"
+      "url": "https://github.com/naivecynics/ABCD-Poster/blob/main/poster.pdf",
+      "summary": "Conducted research in the ARoS Lab under Prof. Lobaton. Designed a data collection protocol and built a dual-modal cough-speech dataset using both air and bone conduction. Developed a dual-path contrastive learning architecture for robust cough-speech detection."
     },
     {
       "company": "School of Engineering, Hong Kong University of Science and Technology",
-      "position": "Exchange Student",
+      "position": "Exchange Student ",
       "startDate": "2025.09.01",
-      "endDate": "2025.12.20"
+      "endDate": "2025.12.20",
+      "summary": "Incoming exchange program. Tentatively planning to develop a state-of-the-art toolkit for multi-task music understanding and benchmarking across various MIR tasks."
     }
   ],
   "publications": [
@@ -50,7 +51,8 @@
       "name": "Investigating the Representation of Backchannels and Fillers in Fine-tuned Language Models",
       "publisher": "EMNLP (under review)",
       "releaseDate": "2025",
-      "authors": [ "Yu Wang", "Leyi Lao", "Langchu Huang", "Gabriel Skantze", "Yang Xu", "Hendrik Buschmeier" ]
+      "authors": [ "Yu Wang", "Leyi Lao", "Langchu Huang", "Gabriel Skantze", "Yang Xu", "Hendrik Buschmeier" ],
+      "summary": "This work investigates how fine-tuning strategies enhance language models’ ability to represent and generate backchannels and fillers in dialogue. Empirical analyses demonstrate improved clustering quality and more human-like language generation, showcasing the potential for adapting general LMs into pragmatic-aware conversational models."
     }
   ],
   "awards": [
@@ -111,7 +113,7 @@
     { "language": "English", "fluency": "fluent" }
   ],
   "certificates": [
-    { "name": "TOEFL (MyBest™)", "score": "100 (R 25, L 27, S 23, W 25)" },
+    { "name": "TOEFL (MyBest)", "score": "100 (R 25, L 27, S 23, W 25)" },
     { "name": "GRE", "score": "317 (V 152, Q 165)" }
   ],
   "leadership": [

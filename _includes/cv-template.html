@@ -82,7 +82,7 @@
         {% endif %}
         {% if education.courses.size > 0 %}
         <div class="cv-item-detail">
-          <strong>Courses:</strong> {{ education.courses | join: ", " }}
+          <strong>Selected Courses:</strong> {{ education.courses | join: ", " }}
         </div>
         {% endif %}
       </div>
@@ -144,9 +144,6 @@
         </div>
         <div class="cv-item-content">
           <div class="cv-item-subtitle">{{ publication.publisher }}</div>
-          {% if publication.summary %}
-          <div class="cv-item-detail">{{ publication.summary }}</div>
-          {% endif %}
           {% if publication.authors %}
           <div class="cv-item-subtitle"><strong>Authors:</strong>
             {% for author in publication.authors %}
@@ -157,6 +154,9 @@
               {% endif %}
             {% endfor %}
           </div>
+          {% endif %}
+          {% if publication.summary %}
+          <div class="cv-item-detail">{{ publication.summary }}</div>
           {% endif %}
           {% if publication.website %}
           <div class="cv-item-detail">
@@ -241,34 +241,6 @@
 </div>
 {% endif %}
 
-{% if cv.skills.size > 0 %}
-<!-- Skills -->
-<div class="cv-section">
-  <h2>Skills</h2>
-  <p class="cv-item-detail">
-    {% assign skill_list = "" %}
-    {% for skill in cv.skills %}
-      {% for keyword in skill.keywords %}
-        {% assign skill_list = skill_list | append: keyword | append: ", " %}
-      {% endfor %}
-    {% endfor %}
-    {{ skill_list | strip | strip_newlines | remove_last: ", " }}
-  </p>
-</div>
-{% endif %}
-
-{% if cv.languages.size > 0 %}
-<!-- Languages -->
-<div class="cv-section">
-  <h2>Languages</h2>
-  <p class="cv-item-detail">
-    {% for language in cv.languages %}
-      <strong>{{ language.language }}</strong> ({{ language.fluency }}){% unless forloop.last %}, {% endunless %}
-    {% endfor %}
-  </p>
-</div>
-{% endif %}
-
 {% if cv.teaching.size > 0 %}
 <!-- Teaching -->
 <div class="cv-section">
@@ -309,5 +281,34 @@
   </ul>
 </div>
 {% endif %}
+
+{% if cv.skills.size > 0 %}
+<!-- Skills -->
+<div class="cv-section">
+  <h2>Skills</h2>
+  <p class="cv-item-detail">
+    {% assign skill_list = "" %}
+    {% for skill in cv.skills %}
+      {% for keyword in skill.keywords %}
+        {% assign skill_list = skill_list | append: keyword | append: ", " %}
+      {% endfor %}
+    {% endfor %}
+    {{ skill_list | strip | strip_newlines | remove_last: ", " }}
+  </p>
+</div>
+{% endif %}
+
+{% if cv.languages.size > 0 %}
+<!-- Languages -->
+<div class="cv-section">
+  <h2>Languages</h2>
+  <p class="cv-item-detail">
+    {% for language in cv.languages %}
+      <strong>{{ language.language }}</strong> ({{ language.fluency }}){% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+  </p>
+</div>
+{% endif %}
+
 
 </div>
