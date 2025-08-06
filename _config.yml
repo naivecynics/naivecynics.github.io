@@ -8,8 +8,8 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default"
-title                    : "Langchu"
+site_theme               : "light"
+title                    : "Welcome"
 title_separator          : "-"
 name                     : &name "naivecynics"
 description              : &description "personal description"
