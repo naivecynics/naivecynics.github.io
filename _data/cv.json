@@ -132,14 +132,14 @@
   ],
   "teaching": [
     {
-      "name": "Piano and Music Theory Tutoring",
-      "description": "Provided private instruction for 2 years",
-      "date": ["2024", "2025"]
+      "name": "Acoustics and Music Teaching for Rural Children",
+      "description": "Volunteer Teacher in Lianping Teaching Support Program, providing introductory acoustics and music lessons to rural primary school students",
+      "date": ["2023.07"]
     },
     {
-      "name": "Acoustics and Music Teaching",
-      "description": "Volunteer Teacher in Lianping Teaching Support Program",
-      "date": ["2023.07"]
+      "name": "Piano and Music Theory Tutoring",
+      "description": "Provided individualized private instruction to children and adolescents for 2 years, focusing on fundamental to intermediate performance skills and music literacy",
+      "date": ["2024", "2025"]
     }
   ]
 }
