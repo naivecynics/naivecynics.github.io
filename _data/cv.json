@@ -27,7 +27,7 @@
       "gpa": "3.8 / 4.0",
       "courses": [ "AI (A-)", "ML (A)", "DL (A-)", "NLP (A+)" ],
       "advisor": "Prof. Yang Xu",
-      "research interest": "MIR, NLP, signal processing"
+      "interest": "MIR, NLP, signal processing"
     }
   ],
   "work": [
@@ -57,10 +57,10 @@
   "publications": [
     {
       "name": "Investigating the Representation of Backchannels and Fillers in Fine-tuned Language Models",
-      "publisher": "EMNLP (under review)",
+      "publisher": "ACL (under review)",
       "releaseDate": "2025",
       "authors": [ "Yu Wang", "Leyi Lao", "Langchu Huang", "Gabriel Skantze", "Yang Xu", "Hendrik Buschmeier" ],
-      "url": "https://arxiv.org/abs/2509.20237",
+      "website": "https://arxiv.org/abs/2509.20237",
       "summary": "This work investigates how fine-tuning strategies enhance language models’ ability to represent and generate backchannels and fillers in dialogue. Empirical analyses demonstrate improved clustering quality and more human-like language generation, showcasing the potential for adapting general LMs into pragmatic-aware conversational models."
     }
   ],
@@ -116,7 +116,7 @@
       "keywords": ["Python", "C++", "TypeScript", "LaTeX", "Lua"]
     },
     {
-      "name": "Music Skills",
+      "name": "Music",
       "keywords": ["Piano", "Chamber Music Performance", "Music Theory and Notation", "Basic Composition"]
     }
   ],

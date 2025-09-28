@@ -85,6 +85,11 @@
           <strong>Selected Courses:</strong> {{ education.courses | join: ", " }}
         </div>
         {% endif %}
+        {% if education.interest.size > 0 %}
+        <div class="cv-item-detail">
+          <strong>Research Interest:</strong> {{ education.interest | join: ", " }}
+        </div>
+        {% endif %}
       </div>
     </li>
     {% endfor %}
@@ -242,19 +247,26 @@
 {% endif %}
 
 
-{% if cv.skills.size > 0 %}
+{% if cv.skills and cv.skills.size > 0 %}
 <!-- Skills -->
 <div class="cv-section">
   <h2>Skills</h2>
-  <p class="cv-item-detail">
-    {% assign skill_list = "" %}
+  <ul class="cv-list">
     {% for skill in cv.skills %}
-      {% for keyword in skill.keywords %}
-        {% assign skill_list = skill_list | append: keyword | append: ", " %}
-      {% endfor %}
+      {% if skill.name or (skill.keywords and skill.keywords.size > 0) %}
+      <li class="cv-item">
+        {% if skill.name %}
+          <span class="cv-item-title">{{ skill.name }}</span>
+        {% endif %}
+        {% if skill.keywords and skill.keywords.size > 0 %}
+          <span class="cv-item-detail">:
+            {{ skill.keywords | join: ", " }}
+          </span>
+        {% endif %}
+      </li>
+      {% endif %}
     {% endfor %}
-    {{ skill_list | strip | strip_newlines | remove_last: ", " }}
-  </p>
+  </ul>
 </div>
 {% endif %}
 
@@ -269,6 +281,7 @@
   </p>
 </div>
 {% endif %}
+
 {% if cv.teaching.size > 0 %}
 <!-- Teaching -->
 <div class="cv-section">
