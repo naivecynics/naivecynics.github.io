@@ -17,5 +17,5 @@ My research interests lie at the intersection of **signal processing**, **langua
 
 <div class="cv-download-links">
   <a href="{{ base_path }}/cv-json/" class="btn btn--primary">View CV Online</a>
-  <a href="{{ base_path }}/files/cv_langchuhuang.pdf" class="btn btn--inverse">Download CV as PDF</a>
+  <a href="{{ base_path }}/files/cv_langchuhuang_250928.pdf" class="btn btn--inverse">Download CV as PDF</a>
 </div>

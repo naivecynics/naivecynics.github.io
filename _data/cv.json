@@ -26,10 +26,18 @@
       "endDate": "2026.05.30",
       "gpa": "3.8 / 4.0",
       "courses": [ "AI (A-)", "ML (A)", "DL (A-)", "NLP (A+)" ],
-      "advisor": "Prof. Yang Xu"
+      "advisor": "Prof. Yang Xu",
+      "research interest": "MIR, NLP, signal processing"
     }
   ],
   "work": [
+    {
+      "company": "College of Engineering, Southern University of Science and Technology",
+      "position": "Undergraduate Research",
+      "startDate": "2024.09.01",
+      "endDate": "2025.12.01",
+      "summary": "Exploring the impact of paralinguistic signals in dialogue datasets on language model performance across tasks."
+    },
     {
       "company": "Department of Electrical and Computer Engineering, North Carolina State University",
       "position": "Research Intern",
@@ -43,7 +51,7 @@
       "position": "Exchange Student ",
       "startDate": "2025.09.01",
       "endDate": "2025.12.20",
-      "summary": "Developing multitrack symbolic codec for music understanding and generation."
+      "summary": "Developing a multitrack symbolic music codec for LMs, aiming to design compact discrete representations to enhance symbolic music understanding and generation. The work explores residual vector quantization, interleaved ABC notation, and multimodal alignment for controllable, musically coherent outputs."
     }
   ],
   "publications": [
@@ -52,6 +60,7 @@
       "publisher": "EMNLP (under review)",
       "releaseDate": "2025",
       "authors": [ "Yu Wang", "Leyi Lao", "Langchu Huang", "Gabriel Skantze", "Yang Xu", "Hendrik Buschmeier" ],
+      "url": "https://arxiv.org/abs/2509.20237",
       "summary": "This work investigates how fine-tuning strategies enhance language models’ ability to represent and generate backchannels and fillers in dialogue. Empirical analyses demonstrate improved clustering quality and more human-like language generation, showcasing the potential for adapting general LMs into pragmatic-aware conversational models."
     }
   ],
@@ -105,6 +114,10 @@
     {
       "name": "Programming",
       "keywords": ["Python", "C++", "TypeScript", "LaTeX", "Lua"]
+    },
+    {
+      "name": "Music Skills",
+      "keywords": ["Piano", "Chamber Music Performance", "Music Theory and Notation", "Basic Composition"]
     }
   ],
   "languages": [
