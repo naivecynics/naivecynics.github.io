@@ -48,10 +48,17 @@
     },
     {
       "company": "School of Engineering, Hong Kong University of Science and Technology",
-      "position": "Exchange Student ",
+      "position": "Exchange Student",
       "startDate": "2025.09.01",
       "endDate": "2025.12.20",
       "summary": "Developing a multitrack symbolic music codec for LMs, aiming to design compact discrete representations to enhance symbolic music understanding and generation. The work explores residual vector quantization, interleaved ABC notation, and multimodal alignment for controllable, musically coherent outputs."
+    },
+    {
+      "company": "TME Lyra Lab, Tencent Music Entertainment",
+      "position": "Research Intern",
+      "startDate": "2025.11.01",
+      "endDate": "2026.03.01",
+      "summary": "Symbolic music related research."
     }
   ],
   "publications": [
@@ -59,7 +66,7 @@
       "name": "Investigating the Representation of Backchannels and Fillers in Fine-tuned Language Models",
       "publisher": "ACL (under review)",
       "releaseDate": "2025",
-      "authors": [ "Yu Wang", "Leyi Lao", "Langchu Huang", "Gabriel Skantze", "Yang Xu", "Hendrik Buschmeier" ],
+      "authors": ["Yu Wang", "Leyi Lao", "Langchu Huang", "Gabriel Skantze", "Yang Xu", "Hendrik Buschmeier" ],
       "website": "https://arxiv.org/abs/2509.20237",
       "summary": "This work investigates how fine-tuning strategies enhance language models’ ability to represent and generate backchannels and fillers in dialogue. Empirical analyses demonstrate improved clustering quality and more human-like language generation, showcasing the potential for adapting general LMs into pragmatic-aware conversational models."
     }
