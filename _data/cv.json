@@ -23,11 +23,11 @@
       "area": "Computer Science and Technology",
       "studyType": "B.E.",
       "startDate": "2022.09.01",
-      "endDate": "2026.05.30",
+      "endDate": "2026.06.30",
       "gpa": "3.8 / 4.0",
-      "courses": [ "AI (A-)", "ML (A)", "DL (A-)", "NLP (A+)" ],
+      "courses": [ "NLP (A+)", "ML (A)", "DL (A-)", "AI (A-)" ],
       "advisor": "Prof. Yang Xu",
-      "interest": "MIR, NLP, signal processing"
+      "interest": "Music Information Retrieval, Natural Language Processing, Signal Processing"
     }
   ],
   "work": [
