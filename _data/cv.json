@@ -64,7 +64,7 @@
   "publications": [
     {
       "name": "Investigating the Representation of Backchannels and Fillers in Fine-tuned Language Models",
-      "publisher": "ACL (under review)",
+      "publisher": "preprint",
       "releaseDate": "2025",
       "authors": ["Yu Wang", "Leyi Lao", "Langchu Huang", "Gabriel Skantze", "Yang Xu", "Hendrik Buschmeier" ],
       "website": "https://arxiv.org/abs/2509.20237",
