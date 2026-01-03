@@ -27,15 +27,15 @@
       "gpa": "3.8 / 4.0",
       "courses": [ "NLP (A+)", "ML (A)", "DL (A-)", "AI (A-)" ],
       "advisor": "Prof. Yang Xu",
-      "interest": "Music Information Retrieval, Natural Language Processing, Signal Processing"
+      "interest": "Music Information Retrieval, Natural Language Processing, Symbolic MUsic"
     },
     {
       "institution": "School of Engineering, Hong Kong University of Science and Technology",
-      "area": "Engineering (Exchange Program)",
-      "studyType": "Non-degree Exchange",
+      "area": "Exchange Program",
+      "studyType": "Non-degree",
       "startDate": "2025.09.01",
       "endDate": "2025.12.31",
-      "courses": ["Music Theory", "Composition"]
+      "courses": ["Music Theory", "Composition", "Signal Processing"]
     }
   ],
   "work": [
@@ -62,7 +62,7 @@
       "summary": "Developing a multitrack symbolic music codec for LMs, aiming to design compact discrete representations to enhance symbolic music understanding and generation. The work explores residual vector quantization, interleaved ABC notation, and multimodal alignment for controllable, musically coherent outputs."
     },
     {
-      "company": "TME Lyra Lab, Tencent Music Entertainment",
+      "company": "Lyra Lab, Tencent Music Entertainment",
       "position": "Research Intern",
       "startDate": "2025.11.01",
       "endDate": "2026.03.01",
@@ -120,7 +120,7 @@
       "url": "https://github.com/naivecynics/SVSmate",
       "description": "Integrate Blackboard academic services into VS Code developer workflows."
     },
-  {
+    {
       "name": "Chamber Music Performance – Gustav Mahler: Piano Quartet in A Minor",
       "date": "2024",
       "url": "https://youtu.be/nnQLO21VEGA",
@@ -178,10 +178,9 @@
       "date": ["2023.07"]
     },
     {
-      "title": "Volunteer Guide and Interpreter",
-      "organization": "University of San Francisco Shenzhen Summer Program",
-      "startDate": "2025.06",
-      "endDate": "2025.06"
+      "name": "Volunteer Guide and Interpreter",
+      "description": "University of San Francisco Shenzhen Summer Program",
+      "date": ["2025.06"]
     },
     {
       "name": "Piano and Music Theory Tutoring",
