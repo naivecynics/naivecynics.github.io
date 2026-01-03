@@ -28,6 +28,14 @@
       "courses": [ "NLP (A+)", "ML (A)", "DL (A-)", "AI (A-)" ],
       "advisor": "Prof. Yang Xu",
       "interest": "Music Information Retrieval, Natural Language Processing, Signal Processing"
+    },
+    {
+      "institution": "School of Engineering, Hong Kong University of Science and Technology",
+      "area": "Engineering (Exchange Program)",
+      "studyType": "Non-degree Exchange",
+      "startDate": "2025.09.01",
+      "endDate": "2025.12.31",
+      "courses": ["Music Theory", "Composition"]
     }
   ],
   "work": [
@@ -40,7 +48,7 @@
     },
     {
       "company": "Department of Electrical and Computer Engineering, North Carolina State University",
-      "position": "Research Intern",
+      "position": "Research Assistant",
       "startDate": "2025.07.01",
       "endDate": "2025.08.31",
       "url": "https://github.com/naivecynics/ABCD-Poster/blob/main/poster.pdf",
@@ -48,7 +56,7 @@
     },
     {
       "company": "School of Engineering, Hong Kong University of Science and Technology",
-      "position": "Exchange Student",
+      "position": "Visiting Research Student",
       "startDate": "2025.09.01",
       "endDate": "2025.12.20",
       "summary": "Developing a multitrack symbolic music codec for LMs, aiming to design compact discrete representations to enhance symbolic music understanding and generation. The work explores residual vector quantization, interleaved ABC notation, and multimodal alignment for controllable, musically coherent outputs."
@@ -58,7 +66,7 @@
       "position": "Research Intern",
       "startDate": "2025.11.01",
       "endDate": "2026.03.01",
-      "summary": "Symbolic music related research."
+      "summary": " Developed a lyric-aware symbolic music foundation model with attribute-wise masked pretraining and hybrid music–language embeddings, improving vocal-centric understanding while maintaining strong performance on symbolic music classification benchmarks. Also developing a symbolic music generation algorithm that transforms lead sheets into full piano arrangements by modeling harmonic realization, voicing structure, and accompaniment texture. "
     }
   ],
   "publications": [
@@ -69,18 +77,25 @@
       "authors": ["Yu Wang", "Leyi Lao", "Langchu Huang", "Gabriel Skantze", "Yang Xu", "Hendrik Buschmeier" ],
       "website": "https://arxiv.org/abs/2509.20237",
       "summary": "This work investigates how fine-tuning strategies enhance language models’ ability to represent and generate backchannels and fillers in dialogue. Empirical analyses demonstrate improved clustering quality and more human-like language generation, showcasing the potential for adapting general LMs into pragmatic-aware conversational models."
+    },
+    {
+      "name": "LyricMidi: Joint Music–Language Pretraining for Symbolic Music Understanding",
+      "publisher": "ICME under review",
+      "releaseDate": "2026",
+      "authors": [ "Langchu Huang", "Yiliang Jiang", "Ying Chen", "Lincheng Kong", "Weifeng Zhao" ],
+      "summary": "This paper proposes a unified music–language pretraining framework that jointly models symbolic music events and lyrics. The model achieves consistent improvements on vocal-centric symbolic music understanding tasks while preserving general music representation performance."
     }
   ],
   "awards": [
     {
       "title": "Academic Scholarship",
       "issuer": "SUSTech",
-      "date": [ "2022", "2023" ]
+      "date": [ "2022", "2023", "2024" ]
     },
     {
       "title": "Outstanding Student Award",
       "issuer": "SUSTech",
-      "date": [ "2022", "2023" ]
+      "date": [ "2022", "2023", "2024"]
     },
     {
       "title": "First Prize",
@@ -104,6 +119,12 @@
       "date": "2025",
       "url": "https://github.com/naivecynics/SVSmate",
       "description": "Integrate Blackboard academic services into VS Code developer workflows."
+    },
+  {
+      "name": "Chamber Music Performance – Gustav Mahler: Piano Quartet in A Minor",
+      "date": "2024",
+      "url": "https://youtu.be/nnQLO21VEGA",
+      "description": "Chamber music performance as pianist in Gustav Mahler’s Piano Quartet in A Minor."
     },
     {
       "name": "ABCD: Air-Bone Cough Contrastive Detector for Dual-Path Edge Audio Health Monitoring",
@@ -155,6 +176,12 @@
       "name": "Acoustics and Music Teaching for Rural Children",
       "description": "Volunteer Teacher in Lianping Teaching Support Program, providing introductory acoustics and music lessons to rural primary school students",
       "date": ["2023.07"]
+    },
+    {
+      "title": "Volunteer Guide and Interpreter",
+      "organization": "University of San Francisco Shenzhen Summer Program",
+      "startDate": "2025.06",
+      "endDate": "2025.06"
     },
     {
       "name": "Piano and Music Theory Tutoring",
