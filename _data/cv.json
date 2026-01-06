@@ -19,7 +19,7 @@
   },
   "education": [
     {
-      "institution": "College of Engineering, Southern University of Science and Technology",
+      "institution": "College of Engineering, Southern University of Science and Technology (SUSTech)",
       "area": "Computer Science and Technology",
       "studyType": "B.E.",
       "startDate": "2022.09.01",
@@ -30,7 +30,7 @@
       "interest": "Music Information Retrieval, Natural Language Processing, Symbolic MUsic"
     },
     {
-      "institution": "School of Engineering, Hong Kong University of Science and Technology",
+      "institution": "School of Engineering, Hong Kong University of Science and Technology (HKUST)",
       "area": "Exchange Program",
       "studyType": "Non-degree",
       "startDate": "2025.09.01",
@@ -82,7 +82,7 @@
       "name": "LyricMidi: Joint Music–Language Pretraining for Symbolic Music Understanding",
       "publisher": "ICME under review",
       "releaseDate": "2026",
-      "authors": [ "Langchu Huang", "Yiliang Jiang", "Ying Chen", "Lincheng Kong", "Weifeng Zhao" ],
+      "authors": [ "Langchu Huang", "Yiliang Jiang", "Ying Chen", "Lingcheng Kong", "Weifeng Zhao" ],
       "summary": "This paper proposes a unified music–language pretraining framework that jointly models symbolic music events and lyrics. The model achieves consistent improvements on vocal-centric symbolic music understanding tasks while preserving general music representation performance."
     }
   ],
