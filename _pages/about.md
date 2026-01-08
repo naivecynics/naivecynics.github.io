@@ -13,7 +13,7 @@ I am currently studying Computer Science at the College of Engineering, **SUSTec
 
 I am deeply passionate about this discipline, especially the emerging field of deep learning. I enjoy the process of transforming abstract ideas into rigorous and elegant paradigms.
 
-My research interests lie at the intersection of **music information retrieval**, **language models**, and **signal processing**. I’m particularly fascinated by how machines can understand structured and unstructured human signals—be it **music, text, or speech**—and how we can model these forms of expression computationally.
+My research interests lie at the intersection of **music information retrieval**, **language models**, and **signal processing**. I’m particularly fascinated by how machines can understand structured and unstructured human signals—be it **music, language, or speech**—and how we can model these forms of expression computationally.
 
 I am currently seeking graduate study opportunities in **computer music**.
 
