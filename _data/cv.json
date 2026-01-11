@@ -115,16 +115,16 @@
   ],
   "portfolio": [
     {
-      "name": "SVSMate – The Ultimate VSCode Extension for SUSTechers",
-      "date": "2025",
-      "url": "https://github.com/naivecynics/SVSmate",
-      "description": "Integrate Blackboard academic services into VS Code developer workflows."
-    },
-    {
       "name": "Chamber Music Performance – Gustav Mahler: Piano Quartet in A Minor",
       "date": "2024",
       "url": "https://youtu.be/nnQLO21VEGA",
       "description": "Chamber music performance as pianist in Gustav Mahler’s Piano Quartet in A Minor."
+    },
+    {
+      "name": "SVSMate – The Ultimate VSCode Extension for SUSTechers",
+      "date": "2025",
+      "url": "https://github.com/naivecynics/SVSmate",
+      "description": "Integrate Blackboard academic services into VS Code developer workflows."
     },
     {
       "name": "ABCD: Air-Bone Cough Contrastive Detector for Dual-Path Edge Audio Health Monitoring",
