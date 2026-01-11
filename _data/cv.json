@@ -129,13 +129,8 @@
     {
       "name": "ABCD: Air-Bone Cough Contrastive Detector for Dual-Path Edge Audio Health Monitoring",
       "date": "2025",
-      "url": "https://github.com/naivecynics/ABCD",
+      "url": "https://github.com/naivecynics/ABCD-Poster/blob/main/poster.pdf",
       "description": "A dual-path health monitoring system using both air conduction and bone conduction audio signal. Developed during internship at NCSU ECE."
-    },
-    {
-      "name": "RISC-V CPU Design with Peripherals for FPGA",
-      "date": "2024",
-      "url": "https://github.com/naivecynics/SUSTech-CS202-24spring-Computer-Organization-CPU-Project?tab=readme-ov-file"
     }
   ],
   "skills": [
