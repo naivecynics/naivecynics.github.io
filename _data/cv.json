@@ -19,15 +19,23 @@
   },
   "education": [
     {
+      "institution": "School of Music, College of Design, Georgia Institute of Technology (Georgia Tech)",
+      "area": "Music Technology",
+      "studyType": "M.S.",
+      "startDate": "2026.08.01",
+      "endDate": "2028.05.31",
+      "advisor": "Prof. Alexander Lerch"
+    },
+    {
       "institution": "College of Engineering, Southern University of Science and Technology (SUSTech)",
       "area": "Computer Science and Technology",
       "studyType": "B.E.",
       "startDate": "2022.09.01",
-      "endDate": "2026.06.30",
-      "gpa": "3.8 / 4.0",
+      "endDate": "2026.08.31",
+      "gpa": "3.8 / 4.0 (91 / 100)",
       "courses": [ "NLP (A+)", "ML (A)", "DL (A-)", "AI (A-)" ],
       "advisor": "Prof. Yang Xu",
-      "interest": "Music Information Retrieval, Natural Language Processing, Signal Processing"
+      "interest": [ "Music Information Retrieval", "Natural Language Processing", "Symbolic Music" ]
     },
     {
       "institution": "School of Engineering, Hong Kong University of Science and Technology (HKUST)",
@@ -35,7 +43,7 @@
       "studyType": "Non-degree",
       "startDate": "2025.09.01",
       "endDate": "2025.12.31",
-      "courses": ["Music Theory", "Composition", "Signal Processing"]
+      "courses": ["Elective coursework in music theory and composition"]
     }
   ],
   "work": [
@@ -43,8 +51,8 @@
       "company": "College of Engineering, Southern University of Science and Technology",
       "position": "Undergraduate Research",
       "startDate": "2024.09.01",
-      "endDate": "2025.12.01",
-      "summary": "Exploring the impact of paralinguistic signals in dialogue datasets on language model performance across tasks."
+      "endDate": "2024.12.31",
+      "summary": "Investigated how paralinguistic signals in dialogue corpora influence the representation learning and downstream task performance of fine-tuned language models."
     },
     {
       "company": "Department of Electrical and Computer Engineering, North Carolina State University",
@@ -52,37 +60,42 @@
       "startDate": "2025.07.01",
       "endDate": "2025.08.31",
       "url": "https://github.com/naivecynics/ABCD-Poster/blob/main/poster.pdf",
-      "summary": "Conducted research in the ARoS Lab under Prof. Lobaton. Designed a data collection protocol and built a dual-modal cough-speech dataset using both air and bone conduction. Developed a dual-path contrastive learning architecture for robust cough-speech detection."
+      "summary": "Conducted research in the ARoS Lab under Prof. Edgar Lobaton. Designed a data collection protocol and built a dual-modal cough-speech dataset using both air and bone conduction microphones. Developed a dual-path contrastive learning architecture for robust cough-speech detection."
     },
     {
       "company": "School of Engineering, Hong Kong University of Science and Technology",
       "position": "Visiting Research Student",
-      "startDate": "2025.09.01",
-      "endDate": "2025.12.20",
-      "summary": "Developing a multitrack symbolic music codec for LMs, aiming to design compact discrete representations to enhance symbolic music understanding and generation. The work explores residual vector quantization, interleaved ABC notation, and multimodal alignment for controllable, musically coherent outputs."
+      "startDate": "2025.08.01",
+      "endDate": "2025.11.30",
+      "summary": "Addressed long-context challenges in multitrack symbolic music modeling by developing a multitrack symbolic music tokenizer to design compact discrete representations for symbolic music understanding and generation. The work explored residual vector quantization, interleaved ABC notation, and multimodal alignment for controllable, musically coherent outputs."
     },
     {
       "company": "Lyra Lab, Tencent Music Entertainment",
       "position": "Research Intern",
       "startDate": "2025.11.01",
-      "endDate": "2026.03.01",
-      "summary": " Developed a lyric-aware symbolic music foundation model with attribute-wise masked pretraining and hybrid music–language embeddings, improving vocal-centric understanding while maintaining strong performance on symbolic music classification benchmarks. Also developing a symbolic music generation algorithm that transforms lead sheets into full piano arrangements by modeling harmonic realization, voicing structure, and accompaniment texture. "
+      "endDate": "2026.05.31",
+      "highlights": [
+        "Developed LyricMidi, a lyric-aware symbolic music foundation model with attribute-wise masked pretraining and hybrid music-language embeddings, improving vocal-centric understanding while maintaining strong performance on symbolic music classification benchmarks.",
+        "Developed symbolic accompaniment generation systems that transform lead sheets into full piano arrangements and guitar tablature.",
+        "Pretrained a unified symbolic music foundation model across performance / score MIDI and ABC notation to support cross-modal downstream tasks such as transcription, PM2S, and conditional generation.",
+        "Developed an end-to-end generative PM2S system for translating performance MIDI into sheet music."
+      ]
     }
   ],
   "publications": [
     {
       "name": "Investigating the Representation of Backchannels and Fillers in Fine-tuned Language Models",
-      "publisher": "preprint",
-      "releaseDate": "2025",
+      "publisher": "ACL 2026 Main Conference",
+      "releaseDate": "2026",
       "authors": ["Yu Wang", "Leyi Lao", "Langchu Huang", "Gabriel Skantze", "Yang Xu", "Hendrik Buschmeier" ],
       "website": "https://arxiv.org/abs/2509.20237",
       "summary": "This work investigates how fine-tuning strategies enhance language models’ ability to represent and generate backchannels and fillers in dialogue. Empirical analyses demonstrate improved clustering quality and more human-like language generation, showcasing the potential for adapting general LMs into pragmatic-aware conversational models."
     },
     {
       "name": "LyricMidi: Joint Music–Language Pretraining for Symbolic Music Understanding",
-      "publisher": "ICME under review",
-      "releaseDate": "2026",
-      "authors": [ "Langchu Huang", "Yiliang Jiang", "Ying Chen", "Lingcheng Kong", "Weifeng Zhao" ],
+      "publisher": "Preprint",
+      "releaseDate": "2025",
+      "authors": [ "Langchu Huang", "Yiliang Jiang", "Ying Chen", "Lincheng Kong", "Weifeng Zhao" ],
       "summary": "This paper proposes a unified music–language pretraining framework that jointly models symbolic music events and lyrics. The model achieves consistent improvements on vocal-centric symbolic music understanding tasks while preserving general music representation performance."
     }
   ],
@@ -93,9 +106,9 @@
       "date": [ "2022", "2023", "2024" ]
     },
     {
-      "title": "Outstanding Student Award",
+      "title": "Outstanding Graduate",
       "issuer": "SUSTech",
-      "date": [ "2022", "2023", "2024"]
+      "date": [ "2026" ]
     },
     {
       "title": "First Prize",
@@ -106,11 +119,6 @@
       "title": "Second Prize",
       "issuer": "Chamber Music (Non-Major Division), 3rd GBA College Student Art Festival",
       "date": [ "2024" ]
-    },
-    {
-      "title": "Second Prize",
-      "issuer": "China Undergraduate Mathematical Contest in Modeling",
-      "date": [ "2023" ]
     }
   ],
   "portfolio": [
@@ -121,10 +129,10 @@
       "description": "Chamber music performance as pianist in Gustav Mahler’s Piano Quartet in A Minor."
     },
     {
-      "name": "SVSMate – The Ultimate VSCode Extension for SUSTechers",
+      "name": "SVSmate – A VS Code Extension for SUSTech Students",
       "date": "2025",
-      "url": "https://github.com/naivecynics/SVSmate",
-      "description": "Integrate Blackboard academic services into VS Code developer workflows."
+      "url": "https://naivecynics.github.io/SVSmate/",
+      "description": "Designed and implemented an extension to integrate school academic services into developers' workflow."
     },
     {
       "name": "ABCD: Air-Bone Cough Contrastive Detector for Dual-Path Edge Audio Health Monitoring",
@@ -140,7 +148,7 @@
     },
     {
       "name": "Music",
-      "keywords": ["Piano", "Chamber Music Performance", "Music Theory and Notation", "Basic Composition"]
+      "keywords": ["Piano", "Chamber Music Performance", "Music Theory and Notation"]
     }
   ],
   "languages": [
